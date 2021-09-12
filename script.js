@@ -35,19 +35,11 @@ for ( let c = 2; c < count.length; c++ ){
 
     const barra = document.createElement('div')
     
-    barra.innerText =  c;
+    barra.innerText =  c + ":" + count[c];
 
     divSelecionada.appendChild(barra)
 
-    barra.style.width = `${count[c]}px`;
+    barra.style.width = `${count[c]+15}px`;
 
-    barra.style.backgroundColor = `#ee7441`;
 
-    barra.style.color = `#00008b`;
-
-    barra.style.height = `40px`;
-
-    barra.style.margin = `10px auto`;
-
-    barra.style.textAlign = `center`;
 }
