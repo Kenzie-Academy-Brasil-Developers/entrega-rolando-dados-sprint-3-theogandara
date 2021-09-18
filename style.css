@@ -47,4 +47,9 @@ h1{
         height: 3rem;
     }
 
+    #barras{
+
+        flex-direction: column;
+    }
+
 }
